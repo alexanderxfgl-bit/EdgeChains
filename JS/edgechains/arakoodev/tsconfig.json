@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "types": ["jest", "node"],
+        "types": ["node"],
         "target": "ES2022",
         "module": "NodeNext",
         "esModuleInterop": true,
@@ -15,5 +15,5 @@
         "outDir": "./dist",
         "rootDir": "./src"
     },
-    "exclude": ["node_modules", "dist", "jest.config.cjs", "./**/*.test.ts", "./**/*.test.d.ts"]
+    "exclude": ["node_modules", "dist", "jest.config.cjs", "vitest.config.ts", "./**/*.test.ts", "./**/*.test.d.ts"]
 }

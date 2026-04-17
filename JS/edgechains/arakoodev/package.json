@@ -14,7 +14,8 @@
         "./db": "./dist/db/src/index.js",
         "./scraper": "./dist/scraper/src/index.js",
         "./sync-rpc": "./dist/sync-rpc/index.js",
-        "./pii-redactor": "./dist/pii-redactor/src/index.js"
+        "./pii-redactor": "./dist/pii-redactor/src/index.js",
+        "./smart-router": "./dist/ai/src/lib/smart-router/smartRouter.js"
     },
     "scripts": {
         "build": "rm -rf dist && tsc -b",
